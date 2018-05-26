@@ -666,9 +666,19 @@
         };
     }());
     S.init();
+var audio = document.getElementById('music1');
+window.onload=function(){
+    $('html').on('touchstart',function(){
+        alert("a");
+        audio.play();
+    });
+}
+
+    
 </script>
 
-<audio autoplay="autoplay" src="love.mp3" loop="loop" controls="controls">
+<audio id="music1" autoplay="autoplay" src="love.mp3" loop="loop" controls="controls">
+当前浏览器不支持音乐播放
 </audio>
 </body>
 </html>
