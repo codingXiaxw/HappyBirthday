@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>1996 - DengSir</title>
+    <title>1997 - YUERONG_WANG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--<meta itemprop="image" content="./images/fenxiang.png" />-->
@@ -134,7 +134,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("YUERONG_WANG|I'm|老夏|Nice|to|Meet|You|我想说|21岁生日快乐哦");
+            S.UI.simulate("Hi|I'm|老夏|Nice|to|Meet|You|#countdown 3|21岁快乐");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -666,18 +666,8 @@
         };
     }());
     S.init();
-var audio = document.getElementById('music1');
-window.onload=function(){
-    $('html').on('touchstart',function(){
-        alert("a");
-        audio.play();
-    });
-}
-
-    
 </script>
-
-<audio id="music1" autoplay="autoplay" src="love.mp3" loop="loop" controls="controls">
+<audio  autoplay="autoplay" src="love.mp3" loop="loop" controls="controls">
 当前浏览器不支持音乐播放
 </audio>
 </body>
