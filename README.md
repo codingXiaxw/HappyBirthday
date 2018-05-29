@@ -18,7 +18,7 @@
 6. update the music's url at 670 line
 7. enjoy it !
 
-# Shorcomings
+# Shortcomings
 
 1. 移动端音乐不能自动播放，可以去琢磨一下
 2. 代码全写在一个文件里面，有兴趣可以把代码结构分离一下
